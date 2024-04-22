@@ -1,6 +1,7 @@
 # TODO APP
 
 A todo application written to demonstrate javascript in action.
+![todo-app-gif](./todo-demo.gif)
 
 ## Description
 
