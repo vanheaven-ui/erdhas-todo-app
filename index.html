@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MY TODO APP</h1>
+    </header>
+    <main>
+      <form>
+        <div class="form-field">
+          <label for="title">Title:</label>
+          <input
+            type="text"
+            id="title"
+            placeholder="Learning Javascript..."
+            autofocus
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="date">Date:</label>
+          <input type="date" id="date" required />
+        </div>
+        <div class="submit-button">
+          <input type="submit" value="Create Todo" />
+        </div>
+      </form>
+      <hr />
+      <section class="todo-section">
+        <h2>Tasks:</h2>
+        <table>
+          <thead>
+            <th>Title:</th>
+            <th>Completion Date:</th>
+            <th>Completed:</th>
+          </thead>
+          <tbody id="todo-list"></tbody>
+        </table>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
