@@ -9,11 +9,10 @@ main {
   width: 100%;
 }
 
-form,
-.todo-section {
+form, .todo-section {
   width: 80%;
-  margin: 0 auto;
   display: flex;
+  margin: 0 auto;
 }
 
 form {
@@ -42,4 +41,3 @@ td {
   opacity: 0.4;
   transition: all 0.5s ease;
 }
-
