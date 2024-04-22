@@ -4,14 +4,13 @@ A todo application written to demonstrate javascript in action.
 
 ## Description
 
-This project involves an attempt to adhere to best practices in Javascript app development. The application persists todos to local Storage.
-
-![todo app demo](./todo-demo.gif)
+This involves an attempt to adhere to best practices in Javascript app development. The application persists todos to local Storage.
 
 ## Getting Started
 
 ### Dependencies
-* There are no dependencies for this project. 
+
+* There are not dependencies for this project. 
 * You need to have a code editor
 
 ### Installing
@@ -30,4 +29,4 @@ Ezekiel Mworekwa
 [Github](https://github.com/vanheaven-ui) |
 [linkedIn](https://linkedin.com/vanheaven)
 
-### You can leave a ⭐ on the repository if you like it.
+## You can leave a ⭐ on the repository if you like it.
