@@ -7,7 +7,7 @@ const tableBody = document.getElementById("todo-list");
 // Function that creates a todoRow for each todo
 function createTodoRow(todo) {
   const todoRow = document.createElement("tr");
-  // Mark the table row of a todo as complete or incomplet based on the todos completed status
+  // Mark the table row of a todo as complete or incomplete based on the todos completed status
   if (todo.completed) {
     todoRow.classList.add("completed-task")
   } else {
